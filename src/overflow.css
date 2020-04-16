@@ -4,3 +4,6 @@
 .f-owya{overflow-y: auto;}
 .f-owxh{overflow-x: hidden;}
 .f-owyh{overflow-y: hidden;}
+
+.f-ow-webkit-t{-webkit-overflow-scrolling: touch;}
+.f-ow-webkit-a{-webkit-overflow-scrolling: auto;}
