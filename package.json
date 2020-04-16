@@ -1,18 +1,21 @@
 {
-  "name": "function-css",
-  "version": "0.0.1",
-  "description": "即用css",
-  "main": "index.js",
-  "keyword": "css",
-  "scripts": {
-    "build": "gulp build"
-  },
-  "author": "jzyong",
-  "license": "ISC",
-  "dependencies": {
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-css": "^0.1.0",
-    "gulp-insert": "^0.5.0"
-  }
+	"name": "function-css",
+	"version": "0.0.1",
+	"description": "即用css",
+	"main": "index.js",
+	"keyword": "css",
+	"scripts": {
+		"build": "gulp build"
+	},
+	"author": "jzyong",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^9.7.6",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-css": "^0.1.0",
+		"gulp-insert": "^0.5.0",
+		"gulp-postcss": "^8.0.0"
+	}
 }
