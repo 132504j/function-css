@@ -12,6 +12,7 @@
 .f-juc{justify-content: center;}
 .f-jus{justify-content: flex-start;}
 .f-jue{justify-content: flex-end;}
+.f-jusb{justify-content: space-between;}
 
 .f-acc{align-content: center;}
 .f-acs{align-content: flex-start;}
