@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .f-owa_ms{overflow: auto;}
+    .f-owh_ms{overflow: hidden;}
+    .f-owxa_ms{overflow-x: auto;}
+    .f-owya_ms{overflow-y: auto;}
+    .f-owxh_ms{overflow-x: hidden;}
+    .f-owyh_ms{overflow-y: hidden;}
+
+    .f-ow-webkit-t_ms{-webkit-overflow-scrolling: touch;}
+    .f-ow-webkit-a_ms{-webkit-overflow-scrolling: auto;}
+}

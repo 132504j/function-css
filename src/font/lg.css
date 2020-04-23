@@ -1,0 +1,33 @@
+@media screen and (min-width: 1200px) {
+    .f-fs12_lg{font-size: 12px;}
+    .f-fs13_lg{font-size: 13px;}
+    .f-fs14_lg{font-size: 14px;}
+    .f-fs15_lg{font-size: 15px;}
+    .f-fs16_lg{font-size: 16px;}
+    .f-fs18_lg{font-size: 18px;}
+    .f-fs20_lg{font-size: 20px;}
+    .f-fs22_lg{font-size: 22px;}
+    .f-fs24_lg{font-size: 24px;}
+    .f-fs26_lg{font-size: 26px;}
+    .f-fs28_lg{font-size: 28px;}
+    .f-fs30_lg{font-size: 30px;}
+    .f-fs32_lg{font-size: 32px;}
+    .f-fs34_lg{font-size: 34px;}
+    .f-fs36_lg{font-size: 36px;}
+    .f-fs38_lg{font-size: 38px;}
+    .f-fs40_lg{font-size: 40px;}
+    .f-fs50_lg{font-size: 50px;}
+    .f-fs100_lg{font-size: 100px;}
+
+    .f-fw5_lg{font-weight: 500;}
+    .f-fw6_lg{font-weight: 600;}
+    .f-fw7_lg{font-weight: 700;}
+    .f-fw8_lg{font-weight: 800;}
+    .f-fw9_lg{font-weight: 900;}
+
+    .f-fl1_lg{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+    .f-fl2_lg{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+    .f-fl3_lg{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;}
+    .f-fl4_lg{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;overflow: hidden;}
+    .f-fl5_lg{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 5;overflow: hidden;}
+}

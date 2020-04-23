@@ -1,0 +1,39 @@
+/* xs display */
+@media screen and (max-width: 767px) {
+    /* 元素属性 */
+    .f-dn_xs{display: none;}
+    .f-db_xs{display: block;}
+    .f-di_xs{display: inline;}
+    .f-dib_xs{display: inline-block;}
+    .f-df_xs{display: flex;}
+    .f-dif_xs{display: inline-flex;}
+
+    /* align-items */
+    .f-aii_xs{align-items: initial;}
+    .f-aifs_xs{align-items: flex-start;}
+    .f-aic_xs{align-items: center;}
+    .f-aife_xs{align-items: flex-end;}
+    .f-ais_xs{align-items: stretch;}
+    .f-aib_xs{align-items: baseline;}
+
+    /* align-content */
+    .f-acfs_xs{align-content: flex-start;}
+    .f-acc_xs{align-content: center;}
+    .f-acfs_xs{align-content: flex-start;}
+    .f-acsb_xs{align-content: space-between;}
+    .f-acsa_xs{align-content: space-around;}
+    .f-acs_xs{align-content: stretch;}
+    .f-aci_xs{align-content: initial;}
+
+    /* justify-content */
+    .f-jui_xs{justify-content: initial;}
+    .f-jusb_xs{justify-content: space-between;}
+    .f-jufs_xs{justify-content: flex-start;}
+    .f-jufe_xs{justify-content: flex-end;}
+    .f-juc_xs{justify-content: center;}
+
+    /* flex-warp */
+    .f-fw_xs{flex-wrap: wrap;}
+    .f-fwr_xs{flex-wrap: wrap-reverse;}
+    .f-fnw_xs{flex-wrap: nowrap;}
+}

@@ -1,4 +1,6 @@
-/* padding */
+/* 默认 padding */
+.f-plra{padding-left: auto;padding-right: auto;}
+
 .f-p5{padding: 5px;}
 .f-p10{padding: 10px;}
 .f-p15{padding: 15px;}

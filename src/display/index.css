@@ -1,0 +1,38 @@
+/* 默认display */
+
+/* 元素属性 */
+.f-dn{display: none;}
+.f-db{display: block;}
+.f-di{display: inline;}
+.f-dib{display: inline-block;}
+.f-df{display: flex;}
+.f-dif{display: inline-flex;}
+
+/* align-items */
+.f-aii{align-items: initial;}
+.f-aifs{align-items: flex-start;}
+.f-aic{align-items: center;}
+.f-aife{align-items: flex-end;}
+.f-ais{align-items: stretch;}
+.f-aib{align-items: baseline;}
+
+/* align-content */
+.f-acfs{align-content: flex-start;}
+.f-acc{align-content: center;}
+.f-acfs{align-content: flex-start;}
+.f-acsb{align-content: space-between;}
+.f-acsa{align-content: space-around;}
+.f-acs{align-content: stretch;}
+.f-aci{align-content: initial;}
+
+/* justify-content */
+.f-jui{justify-content: initial;}
+.f-jusb{justify-content: space-between;}
+.f-jufs{justify-content: flex-start;}
+.f-jufe{justify-content: flex-end;}
+.f-juc{justify-content: center;}
+
+/* flex-warp */
+.f-fw{flex-wrap: wrap;}
+.f-fwr{flex-wrap: wrap-reverse;}
+.f-fnw{flex-wrap: nowrap;}

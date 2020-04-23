@@ -16,26 +16,101 @@ const getFilePath = function (path) {
 // 打包
 task("build", function (done) {
     src("./src/index.css")
+        // display
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/display.css"))
+            fs.readFileSync(getFilePath("src/display/index.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/overflow.css"))
+            fs.readFileSync(getFilePath("src/display/xs.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/padding.css"))
+            fs.readFileSync(getFilePath("src/display/ms.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/margin.css"))
+            fs.readFileSync(getFilePath("src/display/md.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/fontSize.css"))
+            fs.readFileSync(getFilePath("src/display/lg.css"))
+        ))
+        // margin
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/margin/index.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/fontWeight.css"))
+            fs.readFileSync(getFilePath("src/margin/xs.css"))
         ))
         .pipe(insert.prepend(
-            fs.readFileSync(getFilePath("src/round.css"))
+            fs.readFileSync(getFilePath("src/margin/ms.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/margin/md.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/margin/lg.css"))
+        ))
+        // padding
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/padding/index.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/padding/xs.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/padding/ms.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/padding/md.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/padding/lg.css"))
+        ))
+        // font
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/font/index.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/font/xs.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/font/ms.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/font/md.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/font/lg.css"))
+        ))
+        // overflow
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/overflow/index.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/overflow/xs.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/overflow/ms.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/overflow/md.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/overflow/lg.css"))
+        ))
+        // round
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/round/index.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/round/xs.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/round/ms.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/round/md.css"))
+        ))
+        .pipe(insert.prepend(
+            fs.readFileSync(getFilePath("src/round/lg.css"))
         ))
         .pipe(autoprefixer({
             browsers: ["last 2 versions"],

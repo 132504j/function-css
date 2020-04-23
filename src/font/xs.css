@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+    .f-fs12_xs{font-size: 12px;}
+    .f-fs13_xs{font-size: 13px;}
+    .f-fs14_xs{font-size: 14px;}
+    .f-fs15_xs{font-size: 15px;}
+    .f-fs16_xs{font-size: 16px;}
+    .f-fs18_xs{font-size: 18px;}
+    .f-fs20_xs{font-size: 20px;}
+    .f-fs22_xs{font-size: 22px;}
+    .f-fs24_xs{font-size: 24px;}
+    .f-fs26_xs{font-size: 26px;}
+    .f-fs28_xs{font-size: 28px;}
+    .f-fs30_xs{font-size: 30px;}
+    .f-fs32_xs{font-size: 32px;}
+    .f-fs34_xs{font-size: 34px;}
+    .f-fs36_xs{font-size: 36px;}
+    .f-fs38_xs{font-size: 38px;}
+    .f-fs40_xs{font-size: 40px;}
+    .f-fs50_xs{font-size: 50px;}
+    .f-fs100_xs{font-size: 100px;}
+
+    .f-fw5_xs{font-weight: 500;}
+    .f-fw6_xs{font-weight: 600;}
+    .f-fw7_xs{font-weight: 700;}
+    .f-fw8_xs{font-weight: 800;}
+    .f-fw9_xs{font-weight: 900;}
+
+    .f-fl1_xs{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+    .f-fl2_xs{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+    .f-fl3_xs{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;}
+    .f-fl4_xs{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;overflow: hidden;}
+    .f-fl5_xs{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 5;overflow: hidden;}
+}

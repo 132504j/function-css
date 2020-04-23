@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .f-round_ms{border-radius: 50%;}
+    .f-round4_ms{border-radius: 4px;}
+    .f-round5_ms{border-radius: 5px;}
+    .f-round6_ms{border-radius: 6px;}
+    .f-round7_ms{border-radius: 7px;}
+    .f-round8_ms{border-radius: 8px;}
+    .f-round10_ms{border-radius: 10px;}
+    .f-round15_ms{border-radius: 15px;}
+    .f-round20_ms{border-radius: 20px;}
+}
